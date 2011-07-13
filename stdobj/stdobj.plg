@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: stdobj - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP71.tmp" with contents
+[
+/nologo /o"..\lib\Debug/stdobj.bsc" 
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\StdAfx.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\regkey.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\regkeyinfo.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\regresult.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\regvalue.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\regvaluemultisz.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\LockedSocket.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\SmallSocket.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\SmallSocketFile.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\ReadLock.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\ReadWriteObject.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\WriteLock.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\BrowseForFolder.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\folder_dialog.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\ExecuteApp.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\Process.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\ServiceStatus.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\ThreadPool.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\CmdLine.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\DelimFile.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\IPAddress.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\PathString.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\SettingsFile.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\WordWrap.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\PACSDatabase.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\StoredProcedure.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\NetConnection.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\NetFileInfo.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\Directory.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\PackDirectory.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\Timer.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\WaitableTimer.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\DateString.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\DebugPrintf.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\DlgItemGroup.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\FileNotifyInformation.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\Handle.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\LoadString.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\LockedResource.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\MiniEncrypt.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\PlatformInfo.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\stdobj\QuickMail.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP71.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+stdobjD.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

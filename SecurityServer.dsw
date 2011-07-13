@@ -1,0 +1,122 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "SecurityClientLib"=.\SecurityClient\SecurityClientLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SecurityServerLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SecurityServer"=.\App\SecurityServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SecurityClientLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SecurityServerLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ServerLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name stdobj
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SecurityServerLib"=.\SecurityServerLib\SecurityServerLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ServerLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ServerLib"=.\ServerLib\ServerLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name stdobj
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TokenCompiler"=.\TokenCompiler\TokenCompiler.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TokenEditor"=.\TokenEditor\TokenEditor.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "stdobj"=.\stdobj\stdobj.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

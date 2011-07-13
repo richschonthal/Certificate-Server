@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SecurityServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\Output\Debug/SecurityServer.pdb" /debug /machine:I386 /nodefaultlib:"LIBC" /out:"..\Output\Debug/SecurityServer.exe" /pdbtype:sept /libpath:"..\lib" /libpath:"..\Hardlock\Api\win32\msc" 
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\CertificateMaster.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\DBCleanUpThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\DBSubSystem.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\ClientConnectThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\ClientHandlerThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\ClientSubSystem.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\MagicNumber.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfig.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigBackup.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigGeneral.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigMonitor.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigPerformance.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSIOSubSystem.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSIOThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecurityServer.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecurityServerService.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecuritySystem.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\StdAfx.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\MonitorSubSystem.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SystemMonitorHandlerThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SystemMonitorThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\dongle.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\LicenseCheckThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSQuickMail.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\BackupThread.obj"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecurityServer.res"
+"..\Hardlock\api\win32\msc\hlw32lmc.lib"
+"\projects\Security Server 1.14\SecurityServer\Lib\SecurityClientLibD.lib"
+"\projects\Security Server 1.14\SecurityServer\lib\SecurityServerLibD.lib"
+"\projects\Security Server 1.14\SecurityServer\lib\ServerLibD.lib"
+"\projects\Security Server 1.14\SecurityServer\lib\stdobjD.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+/nologo /o"..\Output\Debug/SecurityServer.bsc" 
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\StdAfx.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\CertificateMaster.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\DBCleanUpThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\DBSubSystem.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\ClientConnectThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\ClientHandlerThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\ClientSubSystem.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\MagicNumber.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfig.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigBackup.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigGeneral.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigMonitor.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSConfigPerformance.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSIOSubSystem.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSIOThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecurityServer.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecurityServerService.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SecuritySystem.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\MonitorSubSystem.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SystemMonitorHandlerThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SystemMonitorThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\dongle.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\LicenseCheckThread.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\SSQuickMail.sbr"
+"\projects\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServer\BackupThread.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SecurityServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

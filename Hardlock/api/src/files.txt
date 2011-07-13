@@ -1,0 +1,12 @@
+FASTAPI  H        FAST High API global definition file
+
+HLAPI_C  C        High API C interface (ASM, BASIC, COBOL, ...)
+HLAPI_C  H        High API definition file
+
+HLAPI_CL C        High API CLIPPER interface
+HLAPI_FP C        High API FOXPRO interface
+HLAPI_VC C        High API VISUAL COBOL interface
+HLAPI_LF C        High API LAHEY 77 Fortran interface
+HLAPI_L9 C        High API LAHEY 90 Fortran interface
+HLAPI_RM C        High API Ryan MacFarland FORTRAN interface
+HLAPIG77 C        High API GNU Fortran interface

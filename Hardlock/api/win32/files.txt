@@ -1,0 +1,9 @@
+
+     Notes:
+     ------
+
+  -  Under Win32s the API_1LNM.DLL needs to be installed in the
+     system.
+
+  -  For remote access under NT/95 NetBIOS isn't supported yet.
+

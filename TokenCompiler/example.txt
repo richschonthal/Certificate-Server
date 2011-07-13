@@ -1,0 +1,31 @@
+email=209.218.71.4, ss100, rschonthal
+dongle=1234111111111111
+serial=000006520C040843
+
+; viewer standard
+token=1
+name=Viewer
+count=20
+max=30
+bits=1,2,3
+
+token=2
+name=DServer
+count=1
+bits=1
+
+token=3
+name=AIB
+count=1
+bits=1
+
+token=4
+name=HL7
+count=2
+bits=1
+
+token=5
+name=Telerad
+count=2
+bits=1
+

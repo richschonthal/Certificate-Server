@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SecurityServerLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\stdobj" /I "..\ServerLib" /I "..\App" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\Temp\Debug\SecurityServerLib/" /Fp"..\Temp\Debug\SecurityServerLib/SecurityServerLib.pch" /Yu"stdafx.h" /Fo"..\Temp\Debug\SecurityServerLib/" /Fd"..\Temp\Debug\SecurityServerLib/" /FD /GZ /c 
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\AccessToken.cpp"
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\Certificate.cpp"
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\MCDecrypt.cpp"
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\MCEncrypt.cpp"
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\DBTokens.cpp"
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\LicenseFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\stdobj" /I "..\ServerLib" /I "..\App" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\Temp\Debug\SecurityServerLib/" /Fp"..\Temp\Debug\SecurityServerLib/SecurityServerLib.pch" /Yc"stdafx.h" /Fo"..\Temp\Debug\SecurityServerLib/" /Fd"..\Temp\Debug\SecurityServerLib/" /FD /GZ /c 
+"Z:\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\SecurityServerLib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp" with contents
+[
+/nologo /out:"..\lib\SecurityServerLibD.lib" 
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\AccessToken.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\Certificate.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\MCDecrypt.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\MCEncrypt.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\DBTokens.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\LicenseFile.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\StdAfx.obj"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\Temp\Debug\SecurityServerLib\SecurityServerLib.res"
+"\code\Projects\archive\system_test\Security Server 1.14\SecurityServer\lib\ServerLibD.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AccessToken.cpp
+Certificate.cpp
+MCDecrypt.cpp
+MCEncrypt.cpp
+DBTokens.cpp
+LicenseFile.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+SecurityServerLibD.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

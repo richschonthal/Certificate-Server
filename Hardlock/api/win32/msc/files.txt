@@ -1,0 +1,12 @@
+
+  HLW32_MC.LIB          Hardlock Win32 LIB for Microsoft C (local & remote)
+  HLW32LMC.LIB          Hardlock Win32 LIB for Microsoft C (local only)
+  HLVDD    LIB          Import library for HLVDD.DLL
+
+
+  For compatibility:
+  ------------------
+  NT_CALL  OBJ          NT API driver access routines
+  HLAPI_C  OBJ          High-Level-API
+  NETSTUFF OBJ          Client routines for remote access
+  API_3*   OBJ          Low Level API

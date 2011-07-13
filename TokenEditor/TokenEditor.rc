@@ -1,0 +1,307 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TokenEditor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TokenEditor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TokenEditor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TokenEditor Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TOKENEDITOR_DIALOG DIALOGEX 0, 0, 257, 202
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Token"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,33,16,124,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AVAIL,33,31,40,14,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_ON1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,68,
+                    25,10
+    EDITTEXT        IDC_BITNAME_1,65,65,167,14,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_ON2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,84,
+                    25,10
+    EDITTEXT        IDC_BITNAME_2,65,82,167,14,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_ON3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,
+                    102,25,10
+    EDITTEXT        IDC_BITNAME_3,65,100,167,14,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_ON4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,
+                    118,25,10
+    EDITTEXT        IDC_BITNAME_4,65,116,167,14,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_ON5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,
+                    135,25,10
+    EDITTEXT        IDC_BITNAME_5,65,134,167,14,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_ON6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,33,
+                    153,25,10
+    EDITTEXT        IDC_BITNAME_6,65,150,167,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR1,237,60,10,110,SBS_VERT
+    GROUPBOX        "Bit Settings",IDC_STATIC,7,54,243,118
+    RTEXT           "1",IDC_BITNO_1,13,68,16,8
+    RTEXT           "1",IDC_BITNO_2,13,86,16,8
+    RTEXT           "1",IDC_BITNO_3,13,102,16,8
+    RTEXT           "1",IDC_BITNO_4,13,119,16,8
+    RTEXT           "1",IDC_BITNO_5,13,137,16,8
+    RTEXT           "1",IDC_BITNO_6,13,153,16,8
+    GROUPBOX        "Token",IDC_STATIC,7,7,157,45
+    RTEXT           "Name",IDC_STATIC,9,18,20,8
+    RTEXT           "Count",IDC_STATIC,9,34,20,8
+    DEFPUSHBUTTON   "Ok",IDOK,200,181,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,144,181,50,14
+END
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 230, 138
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "License Editor"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Site name:",IDC_STATIC,53,7,34,8
+    RTEXT           "Processor Serial Number:",IDC_STATIC,7,20,80,8
+    RTEXT           "Encryption File Status:",IDC_STATIC,16,35,71,8
+    CONTROL         "List2",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SORTASCENDING | LVS_AUTOARRANGE | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,60,215,50
+    PUSHBUTTON      "Add",IDC_ADD,7,117,30,14
+    PUSHBUTTON      "Edit",IDC_EDIT,42,117,30,14
+    PUSHBUTTON      "Delete",IDC_DELETE,77,117,30,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TokenEditor MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TokenEditor\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TokenEditor.EXE\0"
+            VALUE "ProductName", "TokenEditor Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TOKENEDITOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New",                         ID_FILE_NEW
+        MENUITEM "Open...",                     ID_FILE_OPEN
+        MENUITEM "Save",                        ID_FILE_SAVE
+        MENUITEM "Save As...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_APP_EXIT
+    END
+    POPUP "Generate"
+    BEGIN
+        MENUITEM "License File...",             IDM_GEN_LIC_FILE
+        MENUITEM "Dongle File...",              IDM_GEN_DONGLE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TokenEditor..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new license file"
+    ID_FILE_OPEN            "Open an existing license file"
+    ID_FILE_SAVE            "Save this license file"
+    ID_FILE_SAVE_AS         "Save this lisence file with a new name"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_EXIT             "Exit the license editor"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_LICENSEFILE         "Generate a lisence file to send to a site"
+    IDM_ENCRYPT             "Generate an encryption file for programmers to use"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TokenEditor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
